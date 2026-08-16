@@ -26,9 +26,9 @@ The app needs a running MongoDB. Use either a **local** install or **MongoDB Atl
 2. Get the connection string (e.g. `mongodb+srv://user:pass@cluster.mongodb.net/convoo`).
 3. In `backend/.env` set:
    ```env
-   MONGODB_URI=mongodb+srv://your-user:your-password@your-cluster.mongodb.net/convoo
+   MONGODB_URI=<your-mongodb-connection-string>
    ```
-   Replace `your-user`, `your-password`, and `your-cluster` with your Atlas values.
+   Set MONGODB_URI in backend/.env with your database connection string.
 
 ## Run
 
