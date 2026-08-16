@@ -1,3 +1,6 @@
+<img width="2172" height="724" alt="86F47E9F-84A6-4654-8A9E-68134E42518E" src="https://github.com/user-attachments/assets/b587b368-da1e-41b8-8264-c85e92a7dc18" />
+
+
 CONVOO-AI Mock Interviewer
 
 ━━━━━━━━━━━━━━━━━━━━
