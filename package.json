@@ -1,0 +1,22 @@
+{
+  "name": "convoo",
+  "version": "1.0.0",
+  "description": "Convoo - AI Mock Interviewer - Full Stack Web Application",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm run dev",
+    "build-frontend": "cd frontend && npm run build",
+    "start-backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
+    "start": "npm run start-backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["interview", "ai", "whisper", "openai", "react", "nodejs"],
+  "author": "Convoo Team",
+  "license": "MIT"
+}

@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: 255 255 255;
+    --bg-secondary: 248 247 255;
+    --bg-surface: 255 255 255;
+    --border: 232 228 240;
+    --text-primary: 26 21 35;
+    --text-muted: 107 114 128;
+    --accent: 124 58 237;
+    --accent-light: 237 233 254;
+    --success: 5 150 105;
+    --warning: 217 119 6;
+    --danger: 220 38 38;
+  }
+
+  .dark {
+    --bg-primary: 15 14 23;
+    --bg-secondary: 19 18 31;
+    --bg-surface: 26 24 39;
+    --border: 42 40 64;
+    --text-primary: 245 243 255;
+    --text-muted: 139 138 160;
+    --accent: 139 92 246;
+    --accent-light: 46 31 94;
+    --success: 16 185 129;
+    --warning: 245 158 11;
+    --danger: 248 113 113;
+  }
+
+  * {
+    @apply transition-colors duration-200;
+    transition-property: background-color, border-color, color;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15px;
+  }
+
+  body {
+    @apply bg-primary-bg text-text-primary antialiased;
+  }
+
+  /* Custom Selection */
+  ::selection {
+    @apply bg-accent/20 text-accent;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-primary-bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-text-muted;
+  }
+
+  /* Focus Rings */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-primary-bg;
+  }
+}
+
+@layer components {
+  .convoo-card {
+    @apply bg-primary-surface border border-border rounded-2xl transition-all duration-300;
+  }
+}
+
+/* Custom animations */
+@keyframes pulse-slow {
+
+  0%,
+  100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.2;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}

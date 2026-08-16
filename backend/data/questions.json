@@ -1,0 +1,83 @@
+{
+  "hr": [
+    {
+      "id": 1,
+      "question": "Tell me about yourself and your professional background.",
+      "category": "hr"
+    },
+    {
+      "id": 2,
+      "question": "What are your greatest strengths and how do they apply to this role?",
+      "category": "hr"
+    },
+    {
+      "id": 3,
+      "question": "Where do you see yourself in 5 years?",
+      "category": "hr"
+    },
+    {
+      "id": 4,
+      "question": "Why do you want to work for our company?",
+      "category": "hr"
+    },
+    {
+      "id": 5,
+      "question": "What is your greatest weakness and how are you working to improve it?",
+      "category": "hr"
+    }
+  ],
+  "technical": [
+    {
+      "id": 1,
+      "question": "Explain a complex technical problem you solved recently.",
+      "category": "technical"
+    },
+    {
+      "id": 2,
+      "question": "How do you stay updated with the latest technology trends?",
+      "category": "technical"
+    },
+    {
+      "id": 3,
+      "question": "Describe your experience with version control systems like Git.",
+      "category": "technical"
+    },
+    {
+      "id": 4,
+      "question": "How do you approach debugging a difficult issue?",
+      "category": "technical"
+    },
+    {
+      "id": 5,
+      "question": "What programming languages are you most comfortable with and why?",
+      "category": "technical"
+    }
+  ],
+  "behavioral": [
+    {
+      "id": 1,
+      "question": "Tell me about a time when you had to work under pressure.",
+      "category": "behavioral"
+    },
+    {
+      "id": 2,
+      "question": "Describe a situation where you had to resolve a conflict with a team member.",
+      "category": "behavioral"
+    },
+    {
+      "id": 3,
+      "question": "Give me an example of a time when you failed and what you learned from it.",
+      "category": "behavioral"
+    },
+    {
+      "id": 4,
+      "question": "Tell me about a time when you had to learn something new quickly.",
+      "category": "behavioral"
+    },
+    {
+      "id": 5,
+      "question": "Describe a situation where you had to lead a team or project.",
+      "category": "behavioral"
+    }
+  ]
+}
